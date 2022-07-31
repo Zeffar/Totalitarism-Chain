@@ -10,4 +10,4 @@
 .cargo
 
 # The cache for chain data in container
-.local
+.local 
