@@ -12,3 +12,4 @@ fi
 
 rustup target add wasm32-unknown-unknown --toolchain nightly
 rustup target add wasm32-unknown-unknown --toolchain nightly-2020-10-05
+ 
