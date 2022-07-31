@@ -2,11 +2,9 @@
 
 A ready for hacking FRAME-based Substrate node 
 
-## Getting Started
-
 This project contains some configuration files
 
-### Makefile
+### Intro
 
 This project is using a Makefile for easier execution. (for help check https://www.gnu.org/software/make/manual/make.html)
 run these:
@@ -22,7 +20,7 @@ To build the node without launching it run this command:
 make build
 ```
 
-### Embedded Docs
+### Running the project
 
 Once the project has been built, run the following command to browse through parameters:
 
@@ -30,7 +28,7 @@ Once the project has been built, run the following command to browse through par
 ./target/release/node-template -h
 ```
 
-### Multi-Node Local Testnet
+### Test Network
 
 For running the multi-node consensus algorithm, we have refered to this substrate tutorial:
 https://substrate.dev/docs/en/tutorials/start-a-private-network
@@ -67,7 +65,7 @@ A FRAME pallet is compromised of a number of blockchain primitives:
 -   Trait: The `Trait` configuration interface is used to define the types and parameters upon which
     a FRAME pallet depends.
 
-### Run in Docker
+### Docker commands
 
 
 Run the following command to start a single node development chain.
