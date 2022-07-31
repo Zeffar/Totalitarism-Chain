@@ -4,7 +4,7 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
     "lldb.executable": "/usr/bin/lldb"
-  },
+  }, 
   "extensions": [
     "rust-lang.rust",
     "bungcip.better-toml",
